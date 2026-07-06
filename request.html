@@ -1,0 +1,125 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Create Blood Request</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- CSS FILE -->
+<link rel="stylesheet" href="request.css">
+
+</head>
+
+<body>
+
+<h2 class="title">Create Blood Request</h2>
+
+<div class="card-box">
+
+<form>
+
+<!-- PATIENT -->
+<div class="section-title">Patient Details</div>
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Full Name">
+    </div>
+    <div class="col-md-3">
+        <input type="number" class="form-control" placeholder="Age">
+    </div>
+    <div class="col-md-3">
+        <select class="form-select">
+            <option>Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+        </select>
+    </div>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Phone Number">
+    </div>
+    <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Alternate Number">
+    </div>
+</div>
+
+<!-- BLOOD -->
+<div class="section-title">Blood Requirement</div>
+
+<div class="row mb-3">
+    <div class="col-md-4">
+        <select class="form-select">
+            <option>Blood Group</option>
+            <option>A+</option><option>A-</option>
+            <option>B+</option><option>B-</option>
+            <option>O+</option><option>O-</option>
+            <option>AB+</option><option>AB-</option>
+        </select>
+    </div>
+
+    <div class="col-md-4">
+        <input type="number" class="form-control" placeholder="Units Required">
+    </div>
+
+    <div class="col-md-4">
+        <select class="form-select">
+            <option>Urgency Level</option>
+            <option>Normal</option>
+            <option>Urgent</option>
+            <option>Emergency 🔴</option>
+        </select>
+    </div>
+</div>
+
+<!-- HOSPITAL -->
+<div class="section-title">Hospital Details</div>
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="Hospital Name">
+    </div>
+    <div class="col-md-6">
+        <input type="text" class="form-control" placeholder="City / District">
+    </div>
+</div>
+
+<textarea class="form-control mb-3" placeholder="Full Address"></textarea>
+
+<!-- EXTRA -->
+<div class="section-title">Additional Info</div>
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <select class="form-select">
+            <option>Reason</option>
+            <option>Accident</option>
+            <option>Surgery</option>
+            <option>Delivery</option>
+            <option>Other</option>
+        </select>
+    </div>
+
+    <div class="col-md-6">
+        <input type="date" class="form-control">
+    </div>
+</div>
+
+<!-- BUTTON -->
+<button type="submit" class="btn-request">
+    Submit Blood Request
+</button>
+
+</form>
+<img src="Blood donation-pana.png" class="create">
+
+
+</div>
+<br>
+
+</body>
+</html>

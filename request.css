@@ -1,0 +1,77 @@
+body{
+    background: #f6f6f6;
+}
+
+/* PAGE TITLE */
+.title{
+    text-align:center;
+    color:#d93131;
+    font-weight:700;
+    margin:30px 0;
+}
+
+/* MAIN CARD */
+.card-box{
+    max-width: 850px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+/* SECTION TITLE */
+.section-title{
+    color: #cc0000;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+/* INPUTS */
+.form-control,
+.form-select{
+    border-radius: 6px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+/* FOCUS EFFECT */
+.form-control:focus,
+.form-select:focus{
+    border-color:#cc0000;
+    box-shadow:0 0 5px rgba(204,0,0,0.3);
+}
+
+/* BUTTON */
+.btn-request{
+    background: linear-gradient(to right, #ff4d4d, #cc0000);
+    border:none;
+    color:white;
+    padding:12px;
+    width:100%;
+    border-radius:8px;
+    font-weight:600;
+    transition:0.3s;
+    margin-top: 15px;
+}
+.create {
+    display: block;
+    width: 100%;             /* ചിത്രം ഫോം കാർഡിന്റെ ഉള്ളിൽ മാത്രം ഒതുങ്ങി നിൽക്കാൻ */
+    height: auto;            /* ചിത്രത്തിന്റെ ഒറിജിനൽ അനുപാതം നിലനിർത്താൻ */
+    margin-top: -85px;
+    margin-bottom: 0;        /* താഴെയുള്ള അധിക മാർജിൻ പൂർണ്ണമായി ഒഴിവാക്കി */
+    padding: 0;
+}
+/* BUTTON HOVER */
+.btn-request:hover{
+    transform: scale(1.02);
+}
+
+/* MOBILE */
+@media (max-width: 768px){
+    .card-box{
+        margin: 15px;
+    }
+}

@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+}
+
+/* NAVBAR */
+.custom-nav {
+    background: linear-gradient(135deg, #df3838 0%, #a00a0a 100%);
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    margin-right: 10px;
+}
+.login-btn,
+.signup-btn,
+.request-btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+/* Login */
+.login-btn {
+    background: transparent;
+    border: 1px solid white;
+}
+
+.login-btn:hover {
+    background: white;
+    color: #a00a0a;
+}
+
+/* Sign Up */
+.signup-btn {
+    background: white;
+    color: #a00a0a;
+}
+
+.signup-btn:hover {
+    background: #f2f2f2;
+}
+
+/* Create Request (Gradient 🔥) */
+.request-btn {
+    background: linear-gradient(45deg, #ff4d4d, #cc0000);
+}
+
+.request-btn:hover {
+    opacity: 0.9;
+}
+
+/* BUTTONS */
+.login-btn, .signup-btn {
+    padding: 6px 14px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.login-btn:hover, .signup-btn:hover {
+    background: white;
+    color: #a00a0a;
+}
+/* NAV LINKS HOVER */
+.navbar-nav .nav-link{
+    color: white !important;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #ffe5e5 !important;
+    transform: translateY(-2px);
+}
+
+/* BUTTON HOVER EFFECT */
+.login-btn:hover,
+.signup-btn:hover,
+.request-btn:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+/* GRADIENT BUTTON */
+.request-btn {
+    padding: 6px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+    background: linear-gradient(to right, #ff4d4d, #cc0000);
+    transition: 0.3s;
+}
+
+.request-btn:hover {
+    background: linear-gradient(to right, #cc0000, #ff4d4d);
+    transform: scale(1.05);
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #df3838 0%, #a00a0a 100%);
+    padding: 60px 0;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* SEARCH BOX */
+.search-box {
+    background: white;
+    padding: 30px;
+    margin-top: -30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.search-btn {
+    background: #a00a0a;
+    color: white;
+    border: none;
+}
+
+.search-btn:hover {
+    background: #cc0000;
+}
+
+/* RESULT */
+.result {
+    padding: 40px;
+}
+
+/* CTA */
+.cta {
+    background: linear-gradient(135deg, #df3838 0%, #a00a0a 100%);
+    padding: 30px 0;
+}
+
+/* FOOTER */
+.footer {
+    background: #222;
+    color: white;
+    padding: 15px;
+}
