@@ -438,7 +438,7 @@ body{
 }
 
 .section-heading {
-    color: #990000; /* നിങ്ങളുടെ ഡാർക്ക് റെഡ് കളർ */
+    color: #c12626; /* നിങ്ങളുടെ ഡാർക്ക് റെഡ് കളർ */
     font-weight: 800;
     font-size: 2.2rem;
     position: relative;
@@ -467,7 +467,9 @@ body{
 .feature-card .icon-box {
     width: 50px;
     height: 50px;
-    background: #990000;
+    color: #d23030; /* നിങ്ങളുടെ ഡാർക്ക് റെഡ് കളർ */
+   
+    background: #d01b27;
     color: white;
     border-radius: 50%;
     display: flex;
@@ -504,7 +506,10 @@ body{
 
 /* രക്തത്തിന്റെ അളവ് കുറവാണെങ്കിൽ കാണിക്കാൻ (Critical) */
 .stock-card.critical {
-    border-top-color: #d93131;
+    color: #c12626; /* നിങ്ങളുടെ ഡാർക്ക് റെഡ് കളർ */
+   
+    border-top-color:#cf2a2a;
+  
 }
 .stock-card.critical .stock-status {
     color: #d93131;
@@ -532,7 +537,7 @@ body{
 .blood-drop, .stock-label-drop {
     font-size: 1.8rem;
     font-weight: 800;
-    color: #990000;
+    color: #d42626;
     margin-bottom: 10px;
 }
 
@@ -560,7 +565,7 @@ body{
 
 .review-heading{
     font-size: 20px;
-    color: #c1121f;
+    color: #d6212d;
     margin-bottom: 25px;
     font-weight: bold;
 }
@@ -598,7 +603,7 @@ animation: infiniteScroll 28s linear infinite;
     min-width: 240px;
     max-width: 240px;
     background: white;
-    border: 2px solid #c1121f;
+    border: 2px solid #cb212c;
     border-radius: 15px;
     padding: 18px;
     flex-shrink: 0;
@@ -632,7 +637,7 @@ animation: infiniteScroll 28s linear infinite;
 /* REVIEW TITLE */
 
 .review-card h3{
-    color: #c1121f;
+    color: #cd2631;
     font-size: 18px;
     margin-bottom: 10px;
 }
@@ -655,7 +660,7 @@ animation: infiniteScroll 28s linear infinite;
     height: 42px;
     border: none;
     border-radius: 50%;
-    background: #c1121f;
+    background: #ca1a26;
     color: white;
     font-size: 22px;
     cursor: pointer;
@@ -666,7 +671,7 @@ animation: infiniteScroll 28s linear infinite;
 /* BUTTON HOVER */
 
 .scroll-btn:hover{
-    background: #990f1a;
+    background: #c01927;
 }
 
 /* LEFT BUTTON */
@@ -699,7 +704,7 @@ animation: infiniteScroll 28s linear infinite;
 
 /* INPUT FOCUS */
 .form-control:focus{
-    border-color:#cc0000;
+    border-color:#de1b1b;
     box-shadow:0 0 5px rgba(204,0,0,0.3);
 }
 

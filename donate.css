@@ -52,7 +52,7 @@ h3 {
 
 .donate-image-section img {
     width: 100%;
-    height: 300px; /* you can change height */
+    height: 500px; /* you can change height */
     object-fit: cover;
     display: block;
 }
